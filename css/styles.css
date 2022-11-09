@@ -178,8 +178,13 @@ img {
 
 .main-advantages__item {
 }
+*/
 
-.main-advantages__item-title {
+.main-advantages__item-title::before {
+  content: url(/icons/checkmark.png);
+}
+
+/* .main-advantages__item-title {
 }
 
 .section-item__title {
