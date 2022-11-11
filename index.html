@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
 </head>
 <body>
@@ -14,8 +14,8 @@
             <img id="header-img" class="header-logo__img" src="icons/fruit-basket-logo.png" alt="Logo image of 'Fruit' website: a basket full of fruit">
             <h1 class="header-logo__title">Fruit</h1>
         </div>
-        <nav id="nav-bar" aria-labelledby="main-navigation">
-            <ul class="nav-bar__list">
+        <nav id="nav-bar" aria-labelledby="main-navigation container">
+            <ul class="nav-bar__list container">
                 <li class="nav-bar__item">
                     <a class="nav-bar__link" href="#advantages">Benefits</a>
                 </li>
@@ -30,12 +30,6 @@
     </header>
 
     <main class="main">
-        <form id="form" class="main-form" action="https://www.freecodecamp.com/email-submit" method="post">
-            <label class="main-form__label" for="name">Subscribe to our latest news!</label>
-            <input id="email" class="main-form__email" type="email" name="email" autocomplete="email"
-                placeholder="Enter Your email adress" />
-            <input id="submit" class="main-form__btn btn" type="submit">
-        </form>
         <section id="advantages" class="main-advantages">
             <h2 class="main-advantages__title container__title">Benefits of eating fruit</h2>
             <div class="main-advantages__container container">
@@ -65,7 +59,7 @@
                 <iframe     
                     class="main-video__item"
                     id="video"    
-                    width="560" height="315" 
+                    
                     src="https://www.youtube.com/embed/o7nCCC1HH7g"
                     title="YouTube video player"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -75,21 +69,23 @@
         </section>
         <section class="main-pricing">
             <h2 class="main-pricing__title container-title">Try our fruit</h2>
-            <div id="shop" class="main-pricing__container container">
+            <div id="shop" class="main-pricing__container">
                 <section class="main-pricing__banner container__item">
                     <img class="main-pricing__banner-img" src="img/apple.png" alt="Apple">
                     <h3 class="main-pricing__banner-title container-item__title">Apple</h3>
                     <p class="main-pricing__banner-text container-item__text">
                         section-item-text
                     </p>
-                    <button class="main-pricing__banner-btn btn uppercase" type="button" name="button">
-                        <img class="main-pricing__banner-icon" src="icons/shopping-bag-color-icon.svg" alt="yellow shopping bag icon">
-                        Add to cart
-                    </button>
-                    <button class="main-pricing__banner-btn btn uppercase" type="button" name="favorite">
-                        <img class="main-pricing__banner-icon" src="icons/star-icon.svg" alt="yellow star icon">
-                        Favorites
-                    </button>
+                    <div class="btn-container">
+                        <button class="main-pricing__banner-btn btn uppercase" type="button" name="button">
+                            <img class="btn-icon" src="icons/shopping-bag-color-icon.svg" alt="yellow shopping bag icon">
+                            Add to cart
+                        </button>
+                        <button class="main-pricing__banner-btn btn uppercase" type="button" name="favorite">
+                            <img class="btn-icon" src="icons/star-icon.svg" alt="yellow star icon">
+                            Favorites
+                        </button>
+                    </div>                    
                 </section>
                 <section class="main-pricing__banner container__item">
                     <img class="main-pricing__banner-img" src="img/orange.png" alt="Orange">
@@ -97,14 +93,16 @@
                     <p class="main-pricing__banner-text container-item__text">
                         section-item-text
                     </p>
-                    <button class="main-pricing__banner-btn btn uppercase" type="button" name="button">
-                        <img class="main-pricing__banner-icon" src="icons/shopping-bag-color-icon.svg" alt="yellow shopping bag icon">
-                        Add to cart
-                    </button>
-                    <button class="main-pricing__banner-btn btn uppercase" type="button" name="favorite">
-                        <img class="main-pricing__banner-icon" src="icons/star-icon.svg" alt="yellow star icon">
-                        Favorites
-                    </button>
+                    <div class="btn-container">
+                        <button class="main-pricing__banner-btn btn uppercase" type="button" name="button">
+                            <img class="btn-icon" src="icons/shopping-bag-color-icon.svg" alt="yellow shopping bag icon">
+                            Add to cart
+                        </button>
+                        <button class="main-pricing__banner-btn btn uppercase" type="button" name="favorite">
+                            <img class="btn-icon" src="icons/star-icon.svg" alt="yellow star icon">
+                            Favorites
+                        </button>
+                    </div>
                 </section>
                 <section class="main-pricing__banner container__item">
                     <img class="main-pricing__banner-img" src="img/banana.png" alt="Banana">
@@ -112,17 +110,25 @@
                     <p class="main-pricing__banner-text container-item__text">
                         section-item-text
                     </p>
-                    <button class="main-pricing__banner-btn btn uppercase" type="button" name="button">
-                        <img class="main-pricing__banner-icon" src="icons/shopping-bag-color-icon.svg" alt="yellow shopping bag icon">
-                        Add to cart
-                    </button>
-                    <button class="main-pricing__banner-btn btn uppercase" type="button" name="favorite">
-                        <img class="main-pricing__banner-icon" src="icons/star-icon.svg" alt="yellow star icon">
-                        Favorites
-                    </button>
+                    <div class="btn-container">
+                        <button class="main-pricing__banner-btn btn uppercase" type="button" name="button">
+                            <img class="btn-icon" src="icons/shopping-bag-color-icon.svg" alt="yellow shopping bag icon">
+                            Add to cart
+                        </button>
+                        <button class="main-pricing__banner-btn btn uppercase" type="button" name="favorite">
+                            <img class="btn-icon" src="icons/star-icon.svg" alt="yellow star icon">
+                            Favorites
+                        </button>
+                    </div>
                 </section>
             </div>            
-        </section>   
+        </section>
+        <form id="form" class="main-form container" action="https://www.freecodecamp.com/email-submit" method="post">
+            <label class="main-form__label" for="name">Subscribe to our latest news!</label>
+            <input id="email" class="main-form__email" type="email" name="email" autocomplete="email"
+                placeholder="Enter Your email adress" />
+            <input id="submit" class="main-form__btn btn" type="submit">
+        </form>
     </main>
 
     <footer class="footer">

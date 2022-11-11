@@ -1,0 +1,30 @@
+/* --------FORM-------- */
+
+.main-form {
+  background-color: var(--background-main-color);
+  padding-bottom: 2rem;
+}
+
+.main-form > * {
+  margin: 5px;
+}
+
+.main-form__label {
+  margin: 2rem auto;
+  font-size: ;
+  font-weight: ;
+}
+
+/* .main-form__email {
+} */
+
+.main-form__btn {
+  margin-top: ;
+  margin-bottom: ;
+}
+
+@media screen and (max-width : 760px) {
+  .main-form: {
+    flex-direction: column;
+  }
+}

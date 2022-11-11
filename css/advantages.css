@@ -1,0 +1,31 @@
+/* --------ADVANTAGES-------- */
+
+.main-advantages {
+  margin: 2rem auto;
+}
+
+/* .main-advantages__title {
+}
+
+.main-advantages__container {
+}
+
+.main-advantages__item {
+}
+*/
+
+.main-advantages__item-title::before {
+  content: url(/icons/checkmark.png);
+}
+
+/* .main-advantages__item-title {
+}
+
+.section-item__title {
+}
+
+.main-advantages__text {
+} */
+
+@media screen and (min-width : 760px) {
+}

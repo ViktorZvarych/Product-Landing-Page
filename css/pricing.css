@@ -1,0 +1,51 @@
+/* --------PRICING-------- */
+
+.main-pricing {
+  margin: 2rem;
+}
+
+.main-pricing__title {
+  text-align: center;
+}
+
+.main-pricing__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  margin: auto;
+}
+
+.main-pricing__banner {
+  width: 200px;
+  align-items: center;
+}
+
+.main-pricing__banner-title {
+  text-align: center;
+  margin: 1rem;
+}
+
+.main-pricing__banner-text {
+  margin: 1rem;
+}
+
+.main-pricing__banner-img {
+  height: 200px;
+  width: 220px;
+}
+
+@media screen and (min-width: 540px) {
+  .main-pricing__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .main-pricing__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,30 @@
+/* --------VIDEO-------- */
+
+.main-video {
+  background-color: var(--background-main-color);
+}
+
+.main-video__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  margin: 0 auto 1rem;
+  padding: 0 0.5rem 2rem;
+}
+
+.main-video__title {
+}
+
+.main-video__item {
+  width: 320px;
+  height: 180px;
+}
+
+@media screen and (min-width : 760px) {
+  .main-video__item {
+   width: 616px;
+   height: 346.5px;
+  }
+}
