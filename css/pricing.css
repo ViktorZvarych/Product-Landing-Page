@@ -49,3 +49,15 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media screen and (min-width: 980px) {
+  .main-pricing__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-pricing__container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

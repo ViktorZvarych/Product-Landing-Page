@@ -12,7 +12,7 @@ a:active {
 
 .nav-bar__link,
 .nav-info-bar__link {
-    padding: 5px;
+  padding: 5px;
 }
 
 .nav-bar__link:hover,
@@ -24,11 +24,10 @@ a:active {
 }
 
 .button-container {
-  width: 100px;
+  width: 100%;
   margin: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
