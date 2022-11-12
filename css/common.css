@@ -9,7 +9,7 @@
   --background-color: #f4ff8cf2;
   --background-main-color: #d3f3fef2;
   --primary-text-color: #01230d;
-  --secondary-text-color: #1b5f13;
+  --secondary-text-color: #008000;
   --primary-font: "Heebo", sans-serif;
   --secondary-font: "Heebo", sans-serif;
   --button-background-color: #01fef6d3;
@@ -26,13 +26,13 @@ body {
   font-size: var(--font-size);
 }
 
-body > * {
+main {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .main {
-  margin: 14rem auto 0;
+  margin: 8rem auto 0;
 }
 
 ul {
@@ -46,6 +46,10 @@ li {
 img {
   display: block;
   width: 100%;
+}
+
+.main {
+  margin: 10rem auto 0;
 }
 
 .uppercase {
@@ -62,7 +66,8 @@ img {
   }
 
 .container__title {
-  padding: 2rem;
+  padding: 2rem auto 1rem;
+  margin: 2rem auto 1rem;
   text-align: center;
 }
 

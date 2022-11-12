@@ -18,8 +18,11 @@
 }
 
 .main-pricing__banner {
-  width: 200px;
+  width: 230px;
+  margin: 1rem auto;
   align-items: center;
+  justify-content: center;
+  border: 1px solid var(--background-main-color);
 }
 
 .main-pricing__banner-title {

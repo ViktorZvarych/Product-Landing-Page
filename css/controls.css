@@ -13,6 +13,8 @@ a:active {
 .nav-bar__link,
 .nav-info-bar__link {
   padding: 5px;
+  font-weight: bold;
+  font-size: 1.15rem;
 }
 
 .nav-bar__link:hover,
@@ -23,20 +25,7 @@ a:active {
   box-shadow: 0px 10px 14px var(--secondary-text-color);
 }
 
-.button-container {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.btn-icon {
-  height: 30px;
-  padding: 0.2rem;
-}
-
-.btn {
+/* .btn {
   cursor: pointer;
   background-color: var(--button-background-color);
   border: 1px solid var(--border-btn-color);
@@ -51,4 +40,4 @@ a:active {
   transition: background-color 0.3s;
   box-shadow: 0px 15px 20px var(--border-btn-color);
   transform: translateY(-3px);
-}
+} */
