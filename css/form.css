@@ -8,7 +8,7 @@
   justify-content: space-around;
   align-items: center;
   flex: 1;
-  margin: auto;
+  margin: auto auto 2rem;
 }
 
 .main-form > * {

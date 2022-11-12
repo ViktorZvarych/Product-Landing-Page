@@ -18,11 +18,13 @@
 }
 
 .main-pricing__banner {
-  width: 230px;
+  width: 250px;
   margin: 1rem auto;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--background-main-color);
+  box-shadow: 1px 8px 15px rgba(22,20,19,0.4);
+  border-radius: 10px;
 }
 
 .main-pricing__banner-title {
@@ -35,8 +37,9 @@
 }
 
 .main-pricing__banner-img {
-  height: 200px;
-  width: 220px;
+  height: 215px;
+  width: 230px;
+  margin: auto;
 }
 
 @media screen and (min-width: 540px) {
