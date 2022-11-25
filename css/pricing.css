@@ -42,6 +42,11 @@
   margin: auto;
 }
 
+.container-item__price {
+  font-weight: bold;
+  color: var(--primary-text-color);
+}
+
 @media screen and (min-width: 600px) {
   .main-pricing__container {
     display: grid;
