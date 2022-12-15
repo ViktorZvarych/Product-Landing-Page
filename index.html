@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit</title>
+    <title>Fruits Basket</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
 </head>
+
 <body>
     <header id="header" class="header">
-        <div class="header-logo">
-            <img id="header-img" class="header-logo__img" src="icons/fruit-basket-logo.png" alt="Logo image of 'Fruit' website: a basket full of fruit">
-            <h1 class="header-logo__title">Fruit</h1>
+        <div>
+            <a class="header-logo" href="/">
+                <img id="header-img" class="header-logo__img" src="icons/fruit-basket-logo.png"
+                    alt="Logo image of 'Fruit' website: a basket full of fruit">
+                <h1 class="header-logo__title">Fruits Basket</h1>
+            </a>
+
         </div>
         <nav id="nav-bar" aria-labelledby="main-navigation container">
             <ul class="nav-bar__list container">
@@ -54,40 +60,47 @@
                         As part of an overall healthy diet, fruit can really help make your bones and muscles stronger.
                     </p>
                 </section>
-            </div>            
+            </div>
         </section>
-        <section class="main-video">            
+
+        <section class="main__slider">
+            <button class="main__slider-btn-prev"><</button>
+            <div class="main__slider-container"></div>
+            <button class="main__slider-btn-next">></button>
+        </section>
+        
+        <section class="main-video">
             <div class="main-video__container">
                 <h2 class="main-video__title container__title">Useful information about fruits</h2>
-                <iframe     
-                    class="main-video__item"
-                    id="video"    
-                    
-                    src="https://www.youtube.com/embed/o7nCCC1HH7g"
-                    title="YouTube video player"
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                <iframe class="main-video__item" id="video" src="https://www.youtube.com/embed/o7nCCC1HH7g"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
             </div>
         </section>
+        
         <section class="main-pricing">
             <h2 class="main-pricing__title container-title">Shop</h2>
-            <div id="shop" class="main-pricing__container">
-                
-            </div>            
+            <div id="shop" class="main-pricing__container"></div>
         </section>
+        
         <section id="contact" class="contact">
             <h2 class="contact__title container-title">Our contacts</h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14555.732983212773!2d24.01560913208511!3d49.84030842477015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1668284150513!5m2!1suk!2sua"
-                class="map" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+        
         <form id="form" class="main-form" action="https://www.freecodecamp.com/email-submit" method="post">
-            <label class="main-form__label" for="name">Subscribe to our latest news!</label>
+            <label class="main-form__label" for="name">Subscribe<br>to freeCodeCamp latest news!</label>
             <input id="email" class="main-form__email" type="email" name="email" autocomplete="email"
-                placeholder="Enter Your email adress" size="20" required/>
-            <button id="submit" class="main-form__btn uppercase" type="submit">Subscribe</button>
+                placeholder="Enter Your email adress" size="20" required />
+            <div id="wrapper">
+                <button class="btn color hide-text" type="button" name="button" type="submit">
+                    <span>Subscribe</span>
+                </button>
+            </div>
         </form>
     </main>
 
@@ -110,6 +123,9 @@
         </div>
     </footer>
 
-    <script src="/js/shop.js"></script>
+    <script src="/js/slider.js"></script>
+    <script src="/js/pricing.js"></script>
+
 </body>
+
 </html>

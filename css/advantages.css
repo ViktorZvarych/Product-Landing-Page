@@ -1,7 +1,7 @@
 /* --------ADVANTAGES-------- */
 
 .main-advantages {
-  margin: 2rem auto;
+  margin: 12rem 1rem 2rem;
 }
 
 /* .main-advantages__title {
@@ -28,4 +28,7 @@
 } */
 
 @media screen and (min-width : 760px) {
+  .main-advantages {
+  margin: 2rem auto;
+}
 }

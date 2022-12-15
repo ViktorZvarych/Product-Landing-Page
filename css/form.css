@@ -8,7 +8,7 @@
   justify-content: space-around;
   align-items: center;
   flex: 1;
-  margin: auto auto 2rem;
+  margin: auto auto;
 }
 
 .main-form > * {
@@ -17,28 +17,12 @@
 }
 
 .main-form__label {
-  margin: 2rem auto;
+  margin: 2rem 1rem;
   font-size: 1.5rem;
-  
+  text-align: center;
 }
 
 .main-form__email {
   width: 220px;
   height: 2rem;
-}
-
-.main-form__btn {
-  cursor: pointer;
-  margin: 2rem auto 0;
-  padding: 5px;
-  border-radius: none;
-
-} 
-
-.main-form__btn:hover {
-  color: var(--background-color);
-  background-color: var(--secondary-text-color);
-  transition: background-color 0.3s;
-  box-shadow: 0px 10px 14px var(--secondary-text-color);
-  transform: translateY(-0.1rem);
 }

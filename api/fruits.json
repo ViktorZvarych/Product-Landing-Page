@@ -1,0 +1,65 @@
+[
+   {
+      "id":"1",
+      "image":"img/apple.png",
+      "title":"Apple",
+      "description":"text",
+      "price":"1.99 $"
+   },
+   {
+      "id":"2",
+      "image":"img/orange.png",
+      "title":"Orange",
+      "description":"text",
+      "price":"2.59 $"
+   },
+   {
+      "id":"3",
+      "image":"img/banana.png",
+      "title":"Banana",
+      "description":"text",
+      "price":"2.39 $"
+   },
+   {
+      "id":"4",
+      "image":"img/kiwi.png",
+      "title":"Kiwi",
+      "description":"text",
+      "price":"3.19 $"
+   },
+   {
+      "id":"5",
+      "image":"img/avocado.png",
+      "title":"Avocado",
+      "description":"text",
+      "price":"3.79 $"
+   },
+   {
+      "id":"6",
+      "image":"img/pineapple.png",
+      "title":"Pineapple",
+      "description":"text",
+      "price":"4.19 $"
+   },
+   {
+      "id":"7",
+      "image":"img/grape.png",
+      "title":"Grape",
+      "description":"text",
+      "price":"2.99 $"
+   },
+   {
+      "id":"8",
+      "image":"img/lemon.png",
+      "title":"Lemon",
+      "description":"text",
+      "price":"2.59 $"
+   },
+   {
+      "id":"9",
+      "image":"img/strawberry.png",
+      "title":"Strawberry",
+      "description":"text",
+      "price":"2.69 $"
+   }
+]

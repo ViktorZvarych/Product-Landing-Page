@@ -27,6 +27,10 @@
   border-radius: 10px;
 }
 
+.main-pricing__banner:hover {
+  transform: translate(0.5rem,-1rem);
+}
+
 .main-pricing__banner-title {
   text-align: center;
   margin: 1rem;
@@ -34,6 +38,7 @@
 
 .main-pricing__banner-text {
   margin: 1rem;
+  text-align: center;
 }
 
 .main-pricing__banner-img {
@@ -43,6 +48,7 @@
 }
 
 .container-item__price {
+  
   font-weight: bold;
   color: var(--primary-text-color);
 }
